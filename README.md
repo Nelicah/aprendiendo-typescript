@@ -4,7 +4,7 @@ Proyecto de aprendizaje de TypeScript donde desarrollo un catálogo interactivo 
 
 ## 🚀 Demo en vivo
 
-[Ver proyecto desplegado](https://tu-usuario.github.io/nombre-repo/)
+[Ver proyecto desplegado](https://nelicah.github.io/aprendiendo-typescript/)
 
 ## 📋 Descripción
 
