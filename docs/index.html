@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo de Películas - TypeScript</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">🎬 Mi Catálogo</span>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <!-- Filtros -->
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <input
+            type="text"
+            class="form-control"
+            id="buscador"
+            placeholder="Buscar película..."
+          />
+        </div>
+        <div class="col-md-4">
+          <select class="form-select" id="filtro-genero">
+            <option value="">Todos los géneros</option>
+            <option value="Fantasía">Fantasía</option>
+            <option value="Romance">Romance</option>
+            <option value="Acción">Acción</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Contenedor de películas -->
+      <div class="row" id="peliculas-container">
+        <!-- Aquí se renderizan las películas con JS/TS -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
